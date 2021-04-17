@@ -1,0 +1,29 @@
+.button{
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: inherit;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 50px;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+
+
+.button.blue-button{
+  background-color: $blue300;
+  border-color: $blue300;
+  color: #fff;
+}
+
+.hero{
+  .buttons{
+    margin: 20px 0;
+    font-size: 22px;
+
+    .button{
+      margin-right: 15px;
+    }
+  }
+}

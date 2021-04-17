@@ -1,0 +1,35 @@
+.hero{
+  background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+  background-size: cover;
+  background-position: 100% 5%;
+  color: #fff;
+  width: $fullContainer;
+
+  .hero-text{
+    margin: 0 150px;
+    padding-top: 180px;
+    min-height: 700px;
+    width: 650px;
+
+    .logo{
+      height: 80px;
+      width: 80px;
+      margin: 30px 0;
+      border-radius: 10px;
+
+      img{
+        object-fit: cover;
+      }
+    }
+
+    h1{
+      font-size: 44px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    p{
+      font-size: 25px;
+    }
+  }
+}

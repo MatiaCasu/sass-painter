@@ -1,3 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: red;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+.hero {
+  background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+  background-size: cover;
+  background-position: 100% 5%;
+  color: #fff;
+  width: 100%;
+}
+.hero .hero-text {
+  margin: 0 150px;
+  padding-top: 180px;
+  min-height: 700px;
+  width: 650px;
+}
+.hero .hero-text .logo {
+  height: 80px;
+  width: 80px;
+  margin: 30px 0;
+  border-radius: 10px;
+}
+.hero .hero-text .logo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hero .hero-text h1 {
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.hero .hero-text p {
+  font-size: 25px;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: inherit;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 50px;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+
+.button.blue-button {
+  background-color: #0d66d0;
+  border-color: #0d66d0;
+  color: #fff;
+}
+
+.hero .buttons {
+  margin: 20px 0;
+  font-size: 22px;
+}
+.hero .buttons .button {
+  margin-right: 15px;
 }

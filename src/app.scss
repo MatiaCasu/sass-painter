@@ -1,3 +1,4 @@
-body{
-  background-color: red;
-}
+@import "partials/_variables";
+@import "partials/_common";
+@import "partials/_hero";
+@import "partials/_buttons";
