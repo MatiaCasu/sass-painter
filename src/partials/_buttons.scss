@@ -1,20 +1,26 @@
-.button{
+.button, .blue-button{
   display: inline-block;
   padding: 8px 20px;
-  background-color: inherit;
   border-width: 3px;
   border-style: solid;
   border-radius: 50px;
   text-decoration: none;
-  color: inherit;
   font-weight: 600;
 }
 
+.button{
+  background-color: inherit;
+  color: inherit;
+}
 
-.button.blue-button{
+.blue-button{
   background-color: $blue300;
   border-color: $blue300;
   color: #fff;
+  &:hover{
+    background-color: $blue400;
+    border-color: $blue400;
+  }
 }
 
 .hero{
@@ -24,6 +30,11 @@
 
     .button{
       margin-right: 15px;
+      &:hover{
+        background-color: #fff;
+        border-color: #fff;
+        color: #000;
+      }
     }
   }
 }

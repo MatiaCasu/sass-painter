@@ -6,10 +6,10 @@
   width: $fullContainer;
 
   .hero-text{
-    margin: 0 150px;
+    @include center-container($mainContainer);
     padding-top: 180px;
     min-height: 700px;
-    width: 650px;
+    padding-right: 40%;
 
     .logo{
       height: 80px;
