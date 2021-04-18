@@ -1,13 +1,20 @@
 #why{
   font-size: 18px;
-
+  font-weight: 600;
+  p{
+    margin: 20px 0;
+  }
+  a{
+    text-decoration: none;
+    color: $blue300;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
   .intro{
   text-align: center;
   @include center-container($mainContainer);
   padding: 80px 200px;
-    h2{
-      margin-bottom: 20px;
-    }
   }
 
   //Commons Why Block
@@ -22,12 +29,15 @@
     }
 
     & .block-img{
-      flex-basis: 60%;
-      background-color: lightgreen;
+      flex-basis: 55%;
       min-height: 300px;
+
+      video, img{
+        width: $fullContainer;
+      }
     }
     & .block-text{
-      flex-basis: 40%;
+      flex-basis: 45%;
     }
   }
 

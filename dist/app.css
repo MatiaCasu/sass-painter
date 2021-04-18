@@ -7,6 +7,7 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
+  color: #2c2c2c;
 }
 
 h2 {
@@ -87,15 +88,23 @@ h2 {
 
 #why {
   font-size: 18px;
+  font-weight: 600;
+}
+#why p {
+  margin: 20px 0;
+}
+#why a {
+  text-decoration: none;
+  color: #1473e6;
+}
+#why a:hover {
+  text-decoration: underline;
 }
 #why .intro {
   text-align: center;
   max-width: 1200px;
   margin: 0 auto;
   padding: 80px 200px;
-}
-#why .intro h2 {
-  margin-bottom: 20px;
 }
 #why .block {
   max-width: 1200px;
@@ -108,12 +117,14 @@ h2 {
   margin: 20px;
 }
 #why .block .block-img {
-  flex-basis: 60%;
-  background-color: lightgreen;
+  flex-basis: 55%;
   min-height: 300px;
 }
+#why .block .block-img video, #why .block .block-img img {
+  width: 100%;
+}
 #why .block .block-text {
-  flex-basis: 40%;
+  flex-basis: 45%;
 }
 #why .block:nth-child(odd) {
   flex-flow: row-reverse;
